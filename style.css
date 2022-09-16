@@ -3,6 +3,9 @@
 }
 body {
     margin: 0rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .nav {
     text-align: center;
@@ -39,10 +42,35 @@ textarea {
 .text{
     display: block;
 }
+/* footer */
 .footer{
-    display: block;
+    background-color: #00BFA6 ;
+    padding: 2rem 1rem;
     text-align: center;
-    background-color: #00BFA6;
+    color:white;
+    border-top-right-radius: 1rem;
+    margin-top: auto ;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+.footer .links{
     color: white;
-    padding: 2rem;
+}
+.footer .ul{
+    padding-inline-start: 0px;
+}
+
+/* List */
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* images */
+.img-footer{
+    height: 40px;
+    width: 40px;
 }
